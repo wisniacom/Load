@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.produkt {
+    display:none;
+}
+
+.zdj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+img {
+    width: 20vw;
+}
+
+.nazwa {
+    margin-top: 2vh;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cena {
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#load {
+    padding: 10px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    font-size: 30px;
+}
+#load:hover {
+    background-color: red;
+    color: blue;
+}
